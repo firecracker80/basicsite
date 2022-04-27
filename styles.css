@@ -1,33 +1,57 @@
 header {
     background-color:#992129;
-    padding-bottom: 1px;
 }
 
 header img {
     margin-left: 10px;
-    padding-top: 10px;
+    padding-top: 70px;
     float: left
 }
 
 header h1 {
-    margin-left: 225px;
-    padding-top: 30px;
-    color: white
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    color: white;
+    font-size: 75px;
 }
 
 nav ul {
     list-style: none;
 }
 nav li a {
-    margin-left: 250px;
+    display: flex;
+    justify-content: center;
     text-decoration: none;
     color: yellow;
+    font-size: 40px;
+}
+
+#userName{
+    color: yellow;
+    font-size: 20px;
 }
 
 main section img {
-    margin-left: 10px;
+    align-items: flex-start;
+    margin-left: 20px;
+    margin-top: 30px;
+    
 }
 
-main section :nth-child(1){
-    float: left;
+main {
+    display: flex;
+    justify-content: center;
+}
+
+section figcaption {
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
 }
