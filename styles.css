@@ -27,11 +27,6 @@ nav li a {
     font-size: 40px;
 }
 
-#userName{
-    color: yellow;
-    font-size: 20px;
-}
-
 main section img {
     align-items: flex-start;
     margin-left: 20px;
@@ -54,4 +49,12 @@ footer {
     display: flex;
     justify-content: center;
     margin-top: 30px;
+}
+
+#person-name {
+    font-size: 50px;
+    color: #992129;
+    display: flex;
+    justify-content: right;
+    margin-right: 30px;
 }

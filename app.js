@@ -9,4 +9,4 @@ console.log(place);
 let response = prompt("Awesome! I bet that was fun! Thanks for visiting my site.");
 console.log(response);
 
-document.write(userName);
+document.write("<p id='person-name'>" + userName + "</p>");
