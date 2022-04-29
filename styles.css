@@ -58,3 +58,10 @@ footer {
     justify-content: right;
     margin-right: 30px;
 }
+
+#pic {
+    width: 150px;
+    height: 150px;
+    /* display: flex;
+    align-content: center; */
+}
