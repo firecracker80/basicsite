@@ -15,28 +15,47 @@ return userName;
 // console.log (myUserName)
 let myUserName = greeting ()
 
-function place () {
+function country () {
 
-// greeting ()
-let place = prompt("Welcome " + myUserName + "! Where have you traveled?");
-console.log(place);
+// greeting ();
+let placePrompt = prompt("Welcome " + myUserName + "! Where have you traveled?");
+console.log(placePrompt);
+let place = ""
+console.log(place.toLowerCase())
+if (place = "dominican republic") {
+       
+    let response = prompt ("Where in DR did you go?");
+   console.log (response.toLowerCase())
+//   /
+} else {
+    let ask = prompt("How many countries have you visited?");
+    console.log (ask);
+    let number = "";
+    if (number === 3) {
+        let pic = ("<img src=bernard-hermant-sb2DvfqUtEQ-unsplash.jpg>");
+          return pic * 3
+          document.write("<img id='pic' src=bernard-hermant-sb2DvfqUtEQ-unsplash.jpg>");
+    }
+    // for (i = 3; i = ask; i++) {
+    //     if (i = ask) {
+        
+        //   let pic = ("<img src=bernard-hermant-sb2DvfqUtEQ-unsplash.jpg>");
+        //   return pic * 3
+        //   document.write("<img id='pic' src=bernard-hermant-sb2DvfqUtEQ-unsplash.jpg>");
+        // }
+    // }
 
-if (place === "Dominican Republic") {
-   let response = prompt ("Where in DR did you go?");
-   console.log (response)
-   alert("Awesome! I bet that was fun! Thanks for visiting my site.");
-}
-else {
-    alert("Awesome! I bet that was fun! Thanks for visiting my site.");
+    // document.write("<img id='pic'>" src="bernard-hermant-sb2DvfqUtEQ-unsplash.jpg"</img>");
+    // alert("Awesome! I bet you had fun! Thanks for visiting my site.");
     }
 
-// alert("Awesome! I bet that was fun! Thanks for visiting my site.");
+    alert("Awesome! I bet you had fun! Thanks for visiting my site.");
 
 document.write("<p id='person-name'>" + myUserName + "</p>");
 
 }
 
-place ()
+country()
 
 // let myPlace = place ()
 
