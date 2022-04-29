@@ -22,7 +22,7 @@ let placePrompt = prompt("Welcome " + myUserName + "! Where have you traveled?")
 console.log(placePrompt);
 let place = ""
 console.log(place.toLowerCase())
-if (place = "dominican republic") {
+if (placePrompt === "dominican republic") {
        
     let response = prompt ("Where in DR did you go?");
    console.log (response.toLowerCase())
@@ -30,10 +30,10 @@ if (place = "dominican republic") {
 } else {
     let ask = prompt("How many countries have you visited?");
     console.log (ask);
-    let number = "";
-    if (number === 3) {
-        let pic = ("<img src=bernard-hermant-sb2DvfqUtEQ-unsplash.jpg>");
-          return pic * 3
+    // let number = "";
+    if (ask === "3") {
+        let pic = ("<img src=\"bernard-hermant-sb2DvfqUtEQ-unsplash.jpg\">");
+        //   return pic * 3
           document.write("<img id='pic' src=bernard-hermant-sb2DvfqUtEQ-unsplash.jpg>");
     }
     // for (i = 3; i = ask; i++) {
